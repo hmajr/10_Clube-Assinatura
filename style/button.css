@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  padding: .75rem 1.25rem;
+  align-items: center;
+  max-width: fit-content;
+
+  border-radius: .5rem;
+
+  font: var(--button);
+  color: var(--text-title);
+  
+  &.primary{
+    background-color: var(--pink-dark );
+
+    &:hover{
+      background-color: var(--pink-base);
+    }
+  }
+  &.secondary{
+    background-color: var(--blue-dark );
+
+    &:hover{
+      background-color: var(--blue-mid);
+    }
+  }
+}
