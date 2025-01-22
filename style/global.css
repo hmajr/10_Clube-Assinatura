@@ -42,3 +42,32 @@
   --link:    .875rem/Auto 500;
   --tag:     .625rem/Auto 700 Uppercase 5%;
 }
+html{
+  background: linear-gradient(180deg, var(--pink-low) -400%, var(--shape-backgroud) 100%);
+}
+
+h1, h2, h3 {
+  color: var(--text-title);
+}
+p{
+  color: var(--text-body);
+}
+
+a{
+  text-decoration: none;
+  color: var(--blue-light);
+
+  &:hover{
+    color: var(--text-body);
+  }
+
+  &.social-link{
+    &:hover{
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: var(--shape-stroke);
+      border-radius: 50%;
+    }
+  }
+}
+
