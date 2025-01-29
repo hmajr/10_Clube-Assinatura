@@ -1,7 +1,33 @@
 #description{
-
+  margin-top: 2rem;
+  
+  position: absolute;
+  display: flexbox;
+  justify-content: center;
+  
   & img{
     height: 2.5rem;
     width: 2.5rem;
+  }
+  & p{
+    margin: 1px;
+    padding-inline: 1.25rem;
+  }
+  #spellbook{
+    position: relative;
+    inset: 0 68vw;
+    transform: rotate(-10deg);
+  }
+  #planchette{
+    position: relative;
+    inset: -1vh 5vw;
+    transform: rotate(-135deg);
+    
+  }
+  #crystal-ball{
+    position: relative;
+    inset: 0 70vw;
+    transform: rotate(40deg);
+
   }
 }
