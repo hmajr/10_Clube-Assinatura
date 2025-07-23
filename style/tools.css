@@ -1,3 +1,14 @@
-.desktop-only{
+.desktop-only {
   display: none;
+}
+
+@media screen and (width >= 48rem) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+    
 }
