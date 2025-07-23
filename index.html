@@ -12,39 +12,69 @@
 </head>
 <body>
   <section id="hero">
-    <nav>
-      <img src="./assets/nav/logo-symbol.svg" alt="Clube">
-      
-      <div class="button primary">
-        Assinar
-      </div>
-    </nav>
-
-    <div>
+    <header>
+      <nav>
+        <img src="./assets/nav/logo-symbol.svg" alt="Clube">
+        
+        <div class="button primary">
+          Assinar
+        </div>
+      </nav>
+    </header>
+    <div class="hero-title">
       <h1>
-        Desperte a sua <br> 
-        imaginação e explore <br>
-        novos mundos
+        Desperte a sua  imaginação <br class="desktop-only">e explore novos mundos
       </h1>
       <p>
-        Junte-se ao clube de assinatura Encantos Literários <br>
-        e descubra maravilhas e aventuras a cada página
+        Junte-se ao clube de assinatura Encantos Literários
+        e <br class="desktop-only">descubra maravilhas e aventuras a cada página
       </p>
     </div>
   </section>
 
+
   <section id="description">
-    <img src="./assets/hero/mystery-opened-spellbook.svg" id="spellbook" alt="" srcset="">
+    <img src="./assets/hero/mystery-opened-spellbook.svg" class="svg-img anim-1" id="spellbook" alt="" srcset="">
     <p>
-      Receba todo mês um livro surpresa do seu 
-      tema favorito, acompanhado de brindes 
-      exclusivos que tornarão a sua experiência 
-      literária ainda mais encantadora.
+      <span class="anim-1">Receba todo mês um <span class="highlight-blue">livro surpresa</span></span>
+      <span class="anim-2">do seu tema favorito, acompanhado de <span class="highlight-blue">brindes exclusivos</span></span>
+      <span class="anim-3">que tornarão a sua experiência literária ainda mais <span class="highlight-blue">encantadora</span></div>
     </p>
-    <img src="./assets/hero/mystery-ouija-planchette.svg" id="planchette" alt="" srcset="">
-    <img src="./assets/hero/mystery-crystal-ball.svg" id="crystal-ball" alt="" srcset="">
+    <img src="./assets/hero/mystery-ouija-planchette.svg" class="svg-img anim-2" id="planchette" alt="" srcset="">
+    <img src="./assets/hero/mystery-crystal-ball.svg" class="svg-img anim-3" id="crystal-ball" alt="" srcset="">
   </section>
 
   <section id="kit">
+    <div class="title">
+      <img class="star"  src="./assets/kit/star.svg" alt="">
+      <h2>
+        Conheça o kit mensal
+      </h2>
+      <img class="star" src="./assets/kit/star.svg" alt="">
+    </div>
+    <p>Recebe uma caixa surpresa todos os meses</p>
+    
+
+    <div class="book-kit">
+      <img id="book" src="./assets/kit/book.png" alt="Livro">
+      <p id="book-description-text">Livro em capa dura</p>
+      <img id="book-description-arrow" src="./assets/kit/arrow-1.svg" alt="">
+
+      <img id="pin" src="./assets/kit/pin.png" alt="Pins">
+      <img id="pin-description-arrow" src="./assets/kit/arrow-2.svg" alt="">
+      <p id="pin-description-text">Broche exclusivo</p>
+    
+      <img class="bookmark" id="bookmark-yellow" src="./assets/kit/bookmark-yellow.png" alt="Marcador de página amarelo">
+      <img class="bookmark" id="bookmark-purple" src="./assets/kit/bookmark-purple.png" alt="Marcador de página roxo">
+      <p id="bookmark-description-text">Marca páginas temático</p>
+      <img id="bookmark-description-arrow" src="./assets/kit/arrow-3.svg" alt=""> 
+    </div>
+  </section>
+  <section id="pricing">
+    <div class="title">
+      <h2>Assinaturas Encantos Literários</h2>
+    </div>
+    
+
   </section>
 </html>
