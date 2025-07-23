@@ -1,0 +1,99 @@
+#kit{
+  margin-top: 21rem;
+  margin-bottom: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  
+  & .title{
+    display: flex;
+    justify-self: center;
+    margin-inline: auto;
+    gap: 0.75rem;
+
+    & h2{
+      font: var(--title-ssm);
+      color: var(--text-body);
+    }
+    & img{
+      width: 1.5rem;
+    }
+  }
+  & p{
+    margin-top: .5rem;
+    font: var(--body-sm);
+    color: var(--text-body);
+  }
+  
+  & .book-kit{
+    margin-top: 4rem;
+    display: flex;
+    align-self: center;
+    position: relative;
+    
+    & p{
+      font: var(--body-xs);
+
+    }
+    /* BOOK */
+    & #book{
+      z-index: 2;
+      width:10rem;
+    }
+    & #book-description-text{
+      position: absolute;
+      inset: -3rem 0 0 -16rem;
+
+    }
+    & #book-description-arrow{
+      width: 3.75rem;
+      position: absolute;
+      inset: -0.75rem 0 0 -3rem;
+    }
+    /* PIN */
+    & #pin{
+      position: absolute;
+      width: 4.5rem;
+      inset: 10rem 0 0 -2.75rem;
+      transform: rotate(-7deg);
+    }
+    & #pin-description-text{
+      position: absolute;
+      inset: 6rem 0 0 -16rem;
+
+    }
+    & #pin-description-arrow{
+      width: 2.25rem;
+      position: absolute;
+      inset: 8rem 0 0 -3.75rem;
+    }
+    /* BOOKMARK */
+    & #bookmark{
+      position: absolute;
+      width: 3.5rem;
+    }
+    & #bookmark-yellow{
+      position: absolute;
+      width: 4.5rem;
+      z-index: 1;
+      inset: -2rem 0 0 8rem;
+      transform: rotate(11deg);
+    }
+    & #bookmark-purple{
+      position: absolute;
+      width: 4.5rem;
+      inset: 0rem 0 0 10rem;
+      transform: rotate(22deg);
+    }
+    & #bookmark-description-text{
+      position: absolute;
+      white-space: nowrap;
+      inset: 15rem 0 0 7.5rem;
+
+    }
+    & #bookmark-description-arrow{
+      width: 3rem;
+      position: absolute;
+      inset: 12rem 0 0 11rem;
+    }
+  }
+}
