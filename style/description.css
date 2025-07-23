@@ -8,26 +8,35 @@
   & img{
     height: 2.5rem;
     width: 2.5rem;
+    position: relative;
   }
   & p{
     margin: 1px;
     padding-inline: 1.25rem;
+    font: var(--body-md);
   }
-  #spellbook{
-    position: relative;
+  & img#spellbook{
     inset: 0 68vw;
     transform: rotate(-10deg);
   }
-  #planchette{
-    position: relative;
+  & img#planchette{
     inset: -1vh 5vw;
     transform: rotate(-135deg);
     
   }
-  #crystal-ball{
-    position: relative;
+  & img#crystal-ball{
     inset: 0 70vw;
     transform: rotate(40deg);
+  }
+}
 
+@media screen and (width >= 50rem){
+  #description{
+    max-width: 75rem;
+  }
+
+  .highlight-blue{
+    color: var(--blue-light);
+    
   }
 }
