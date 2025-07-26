@@ -1,0 +1,75 @@
+.container-card{
+  display: flex ;
+  gap: 1rem;
+  
+}
+.card{
+  width: 18rem;
+  height: 26rem;
+  padding: 2rem 2rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--shape-base);
+  
+  border: 2px solid var(--shape-stroke);
+  border-radius: 1.5rem;
+  
+  & .button{
+    margin-top: 1.5rem;
+  }
+}
+
+.card-title{
+  gap: .5rem;
+  
+  & h3{
+    font: var(--title-xs);
+    color: var(--blue-light);
+    margin-bottom: 1.5rem;
+  }
+  & :nth-child(2){
+    font: var(--title-md);
+    text-align: left;
+    
+    & small{
+      font: var(--title-xs);
+    }
+  }
+  & :nth-child(3){
+    margin-top: .5rem;
+    font: var(--body-sm);
+    color: var(--text-label);
+    text-align: left;
+  }
+}
+#title-semestral{
+  color: var(--pink-base);
+}
+.card-description{
+  /* SOMETHING HERE*/
+  
+  & ul[role="list"]{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+
+    & li{
+      display: flex;
+      gap: .5rem;
+      
+      & img{
+        width: .875rem;
+      }
+      & p{
+        font: var(--body-xs);
+        color: var(--text-body);
+      }
+    }
+  }
+  & > .button{
+    justify-content: center;
+  }
+}
+
