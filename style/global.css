@@ -70,6 +70,7 @@ p{
 }
 
 a{
+  font: var(--link);
   text-decoration: none;
   color: var(--blue-light);
 

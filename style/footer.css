@@ -1,0 +1,50 @@
+#footer{
+  padding: 0 2rem 2.375rem 2rem;
+  background: top/100% url(../assets/footer/book-trace-background.svg) no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & img[src*="logo-horizontal"]{
+    height: 2.5rem;
+    margin-top: 6rem;
+  }
+  
+  
+}
+#social-links{
+  margin-top: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+
+}
+.social-logo{
+  padding: 1rem;
+  & svg{
+    fill: var(--blue-base);
+  }
+}
+
+#link-map{
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+
+  & div{
+
+    & h3{
+      font: var(--title-xs);
+      color: var(--text-body);
+      margin-bottom: 1.25rem;
+    }
+
+    & ul[role="list"]{
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      gap: .75rem;
+    }
+  }
+}
